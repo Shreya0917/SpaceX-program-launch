@@ -13,7 +13,7 @@ To run this project locally, run the following command  `yarn start` or `npm sta
 SpaceX app is deployed on **Github** [Spacex-Launch-Programs](https://shreya0917.github.io/SpaceX-program-launch/)
 
 ### Lighthouse Score
-Performance- 83
+Performance- 94
 Accessibility- 92
 Best Practices-100
 SEO- 100
