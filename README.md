@@ -1,5 +1,6 @@
-## Spacex
-A front-end application which would help users list and browse all launches by SpaceX program.
+## SPACEX
+This is a simple frontend application which would let the user to list and browse all launches by SpaceX program.
+ It is designed to be a single page application
 
 ## Installation
 To install, simply clone this repository & run the following command  `yarn` or `npm install`, this will install all the dependencies for you.
@@ -7,12 +8,12 @@ To install, simply clone this repository & run the following command  `yarn` or 
 ## Running Project
 To run this project locally, run the following command  `yarn start` or `npm start`, this will start a local instance of the application & you will be able to run the app in your browser at this url http://localhost:3000/.
 
-### Netlify Deployment
+### Deployment
 
-SpaceX app is deployed on **Netlify** [Spacex-Launch-Programs](https://spacex-reactjs.netlify.app/)
+SpaceX app is deployed on **Github** [Spacex-Launch-Programs](https://shreya0917.github.io/SpaceX-program-launch/)
 
 ### Lighthouse Score
-Performance- 91
+Performance- 70
 Accessibility- 92
 Best Practices-100
 SEO- 100
@@ -21,15 +22,6 @@ SEO- 100
 
 >Filters and Launch Items details cards having Spacex launch details fetched from API
 
-![Alt text](https://ik.imagekit.io/eudv8cramv/Screenshot__1270__MvCD0C3w26.png)
-
-> After Applying Launch Year Filter
-
-![Alt text](https://ik.imagekit.io/eudv8cramv/Screenshot__1271__wwcOOWXWmR.png)
-
-> After Applying Successful Launch Filter
-
-![Alt text](https://ik.imagekit.io/eudv8cramv/Screenshot__1272__IQT1rCmyt.png)
 
 
 Developed By Shreya G
