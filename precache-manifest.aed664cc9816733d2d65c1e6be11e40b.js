@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44f7b82d349bc06a0143a52545671012",
+    "revision": "3772fd74f2fcb109cb807d9a28328ba6",
     "url": "/SpaceX-program-launch/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SpaceX-program-launch/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "c3ad9eee3522fe91534c",
-    "url": "/SpaceX-program-launch/static/css/main.642dce81.chunk.css"
+    "revision": "8a3cec641abe6e2447f3",
+    "url": "/SpaceX-program-launch/static/css/main.ac790bc5.chunk.css"
   },
   {
     "revision": "2b2ce6ef1ff63ec83966",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SpaceX-program-launch/static/js/2.b6226c90.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3ad9eee3522fe91534c",
+    "revision": "8a3cec641abe6e2447f3",
     "url": "/SpaceX-program-launch/static/js/main.7ca17b2d.chunk.js"
   },
   {
