@@ -4,7 +4,7 @@ import { Container, Card, Button, Row, Col } from 'react-bootstrap';
 import LaunchDetails from './components/LaunchDetails';
 import querystring from 'querystring';
 import './App.css';
-import loader from './rocket.gif';
+import loader from './loadRocket.gif';
 
 const API_BASE_URL = "https://api.spacexdata.com/v3/launches?limit=100";
 
@@ -79,7 +79,7 @@ class App extends Component {
       return (
         <div className="App">
           <h1 className="App-header">SpaceX Launch Programs</h1>
-          <Container fluid>
+          <Container fluid  className="content">
             <Row>
               <Col xs={12} sm={12} md={6} lg={3}>
                 <Card className="App-filter-card">
@@ -91,7 +91,6 @@ class App extends Component {
                       Launch Year
                       <hr className="App-filters-hr" />
                     </Card.Text>
-
                     <Row>
                       <div className="App-filter-button-container">
                         {uniqueLaunchYears.map((year) => {
@@ -100,7 +99,7 @@ class App extends Component {
                               className="App-filter-button"
                               variant={
                                 this.state.filters.launch_year ===
-                                year.toString()
+                                  year.toString()
                                   ? "success"
                                   : "outline-success"
                               }
@@ -202,15 +201,16 @@ class App extends Component {
               </Col>
 
               <Col xs={12} sm={12} md={6} lg={9}>
-                <Row>
-                  {data.map((details) => {
-                    return (
-                      <Col md={9} lg={3}>
-                        <LaunchDetails details={details} />
-                      </Col>
-                    );
-                  })}
-                </Row>
+                
+                  <Row>
+                    {data.map((details) => {
+                      return (
+                        <Col md={6} lg={3}>
+                          <LaunchDetails details={details} />
+                        </Col>
+                      );
+                    })}
+                  </Row>
               </Col>
             </Row>
             <div>
