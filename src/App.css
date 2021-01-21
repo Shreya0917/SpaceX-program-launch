@@ -95,18 +95,15 @@ body {
   }
 }
 
-@media only screen  and (max-width: 768px) {
-  .App-filter-card {
-    width: 60%;
-    margin-bottom: 15px;
+@media screen and (min-width: 1024px) {
+  .content {
+    grid-template-columns: minmax(auto, 20%) minmax(auto, 80%);
+
   }
- .content {
-  margin-left : 105px;
- }
- .Rocket-details-card {
-  width: 13rem;
-  padding: 1rem;
-  margin-bottom: 15px;
-  margin-left: 63px!important;
- }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1023px) {
+  .content {
+    grid-template-columns: minmax(auto, 30%) minmax(auto, 70%);
+  }
 }
